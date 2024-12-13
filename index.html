@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Weather System">
+    <meta name="description" content="Weather!">
+
+    <title>Weather</title>
+
+    <link rel="shortcut icon" href="./images/logo@2x.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg p-5" data-bs-theme="dark">
+        <div class="container">
+
+            <img src="./images/logo@2x.png" alt="Sky" class="logo ">
+            <div class="d-flex flex-column ms-3">
+                <h1 class="navbar-brand mb-0 p-0 fw-bold">Weather</h1>
+                <small class="text-body-secondary tagline">tagline goes here</small>
+            </div>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item px-2">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item px-2">
+                        <a class="nav-link" href="#">News</a>
+                    </li>
+                    <li class="nav-item px-2">
+                        <a class="nav-link" href="#">Live Camera</a>
+                    </li>
+
+                    <li class="nav-item px-2">
+                        <a class="nav-link" href="#">Photos</a>
+                    </li>
+
+                    <li class="nav-item px-2">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+    <header>
+        <section class="hero-section">
+            <div class="d-flex justify-content-center m-auto">
+                <div class="input-container">
+                    <input type="text" class="form-control form-control-lg search-input" id="search"
+                        placeholder="Find your location...">
+                    <button class="btn search-btn" type="button">Find</button>
+                </div>
+            </div>
+
+          
+        </section>
+    </header>
+    <main >
+        <section>
+            <div class="container">
+                <div class="row weather-wrapper">
+                    <div class="col-md-4 p-0">
+                        <div class="card weath-card rounded-strat-5 rounded-end-0">
+                            <div class="card-header d-flex justify-content-between">
+                                <p class="m-0">Tuesday</p>
+                                <p class="m-0">10December</p>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Cairo</h5>
+                                <h2 class="card-text mt-4 display-2 text-white fw-bold">19.3<sup>o</sup>C</h2>
+                                <i class="fa-regular fa-moon fa-2xl mt-5 text-info"></i>
+                                <p class="text-info mt-4">Clear</p>
+                                <div class="d-flex justify-content-between mt-5">
+                                    <div>
+                                        <i class="fa-solid fa-umbrella"></i>
+                                        <span>20%</span>
+                                    </div>
+                                    <div>
+                                        <i class="fa-solid fa-wind"></i>
+                                        <span>18km/h</span>
+                                    </div>
+                                    <div>
+                                        <i class="fa-regular fa-compass"></i>
+                                        <span>East</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <section>
+            <div class="container">
+                <div class="row weather-wrappere">
+                    <!-- <div class="col-md-4 p-0">
+                        <div class="card weath-card rounded-strat-5 rounded-end-0 ">
+                            <div class="card-header d-flex justify-content-center">
+                                <p class="m-0">Tuesday</p>
+                            </div>
+                            <div class="card-body text-center">
+                                <i class="fa-regular fa-moon fa-2xl mt-5 text-info"></i>
+                                <div >
+                                    <h4 class="card-text mt-4  text-white fw-bold">19.3<sup>o</sup>C</h4>
+                                    <h5 class="card-text  fw-bold">15.3<sup>o</sup></h5>
+
+                                </div>
+                                <p class="text-info mt-4">Clear</p>
+                               
+                            </div>
+                        </div>
+                    </div> -->
+
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <section class="footer-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-7 me-auto">
+                        <div class="input-container">
+                            <input type="text" class="form-control form-control-lg search-input" id="search"
+                                placeholder="Enter your email to susbscribe...">
+                            <button class="btn search-btn" type="button">Subscribe</button>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mt-2">
+                        <div class="social-links">
+                            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="#"><i class="fa-brands fa-google-plus-g"></i></a>
+                            <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <p class="text-white-50 mt-4 ms-2 cp">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+            </div>
+        </section>
+    </footer>
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
